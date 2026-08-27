@@ -1,0 +1,9 @@
+from logging import config
+
+
+def update_setting(config, key, value):
+    config[key] = value
+
+update_setting(config, "theme", "light")
+
+print(config)
